@@ -1,0 +1,458 @@
+*{
+    padding: 0px;
+    margin:0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+  
+    scroll-behavior: smooth;
+}
+
+/* navigtaions*/
+.navigation{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(99, 118, 180);
+}
+.navigation h1, span{
+    font-size: 2.5rem;
+}
+.navigation h1{
+    color: white;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation li a{
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.2s ease;
+}
+.navigation li a:hover{
+    transition: 0.2s ease;
+    color: yellow;
+    text-decoration: underline;
+}
+.navigation ul li{
+    padding: 2px 50px;
+}
+.navigation span{
+    color: yellow;
+}
+/*navigation End*/
+
+
+/* Introduction*/
+.invContainerText{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:yellow;
+    align-items: center;
+}
+.invContainerText .parentTextContainer{
+ font-size: 2rem; 
+ margin-left: 700px;
+ margin-top: 200px;
+ color: #61617c;
+}
+.invContainerText .parentTextContainer h2{
+    color:black;
+}
+
+
+#image{
+    border-radius: 50%;
+    position:absolute;
+    top: 1%;
+    display: block;
+    
+   
+    border: 100px solid rgb(136, 153, 212);;
+}
+
+/*endIntro*/
+
+/*featured*/
+
+
+/*featuredContainer*/
+
+
+
+/* footer*/
+.footer{
+   position: fixed;
+    z-index: 100;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:372px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.footer ul li{
+    display: inline-block;
+    padding: 5px 35px;
+}
+.footer li a{
+    color: rgb(255, 255, 255);
+    transition: 0.2s ease;
+}
+.footer li a:hover{
+    transition: 0.2s ease;
+    color: yellow;
+}
+
+/*endFooter*/
+
+/*media screens*/
+@media screen and (min-width: 300px) and (max-width: 320px){
+.navigation{
+    position: fixed;
+
+    width: 100%;
+    
+}
+.navigation li h1{
+    font-size:2rem;
+}
+.navigation li span{
+    font-size:2rem;
+}
+.navigation li a{
+    font-size:2rem;
+}
+.navigation ul li{
+  padding: 5px 50px;
+}
+#image{
+   display: block;
+   height: 100px;
+   border: 20px solid rgb(136, 153, 212);;
+   top: 35%;
+}
+#mobileText{
+    font-size: 1rem;
+    margin-left: 200px;
+    height: 684px;
+    
+}
+.text{
+    position: relative;
+    top:35%;
+    left: -50%;
+}
+.footer{
+    display: block;
+    top: 53.2%;
+    position: fixed;
+    
+}
+.footer ul li{
+    padding:2px 27px;
+}
+.footer ul li a{
+    font-size: 3rem;
+}
+body{
+    zoom:97%;
+}
+}
+
+
+
+@media screen and (min-width:321px) and (max-width:345px){
+    .navigation{
+        position: fixed;
+    
+        width: 100%;
+        
+    }
+    .navigation li h1{
+        font-size:2rem;
+    }
+    .navigation li span{
+        font-size:2rem;
+    }
+    .navigation li a{
+        font-size:2rem;
+    }
+    .navigation ul li{
+      padding: 5px 50px;
+    }
+    #image{
+       display: block;
+       height: 100px;
+       border: 20px solid rgb(136, 153, 212);;
+       top: 35%;
+    }
+    #mobileText{
+        font-size: 1rem;
+        margin-left: 200px;
+        height: 684px;
+        
+    }
+    .text{
+        position: relative;
+        top:35%;
+        left: -50%;
+    }
+    .footer{
+        display: block;
+        top: 51%;
+        position: fixed;
+        
+    }
+    .footer ul li{
+    
+    }
+    .footer ul li a{
+        font-size: 2.5rem;
+    }
+    body{
+        zoom:95%;
+    }
+}
+
+
+
+
+@media screen and (min-width: 346px) and (max-width: 360px){
+    .navigation{
+        position: fixed;
+    
+        width: 100%;
+        
+    }
+    .navigation li h1{
+        font-size:2rem;
+    }
+    .navigation li span{
+        font-size:2rem;
+    }
+    .navigation li a{
+        font-size:2rem;
+    }
+    .navigation ul li{
+      padding: 5px 50px;
+    }
+    #image{
+       display: block;
+       height: 150px;
+       border: 20px solid rgb(136, 153, 212);;
+       top: 30%;
+    }
+    #mobileText{
+        font-size: 1rem;
+        margin-left: 200px;
+        height: 684px;
+        
+    }
+    .text{
+        position: relative;
+        top:35%;
+        left: -50%;
+    }
+    .footer{
+        display: block;
+        top: 51%;
+        position: fixed;
+        
+    }
+    .footer ul li{
+padding: 0px 2px 2px;
+    }
+    .footer ul li a{
+        font-size: 2.5rem;
+        
+    }
+    body{
+        zoom:95%;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width:435px){
+    .navigation{
+        position: fixed;
+    
+        width: 100%;
+        
+    }
+    .navigation li h1{
+        font-size:2rem;
+    }
+    .navigation li span{
+        font-size:2rem;
+    }
+    .navigation li a{
+        font-size:2rem;
+    }
+    .navigation ul li{
+      padding: 5px 50px;
+    }
+    #image{
+       display: block;
+       height: 150px;
+       border: 20px solid rgb(136, 153, 212);;
+       top: 25%;
+    }
+    #mobileText{
+        font-size: 1rem;
+        margin-left: 200px;
+        height: 684px;
+        
+    }
+    .text{
+        position: relative;
+        top:35%;
+        left: -50%;
+    }
+    .footer{
+        display: block;
+        top: 51%;
+        position: fixed;
+        
+    }
+    .footer ul li{
+padding: 0px 2px 2px;
+    }
+    .footer ul li a{
+        font-size: 2.5rem;
+        
+    }
+    body{
+        zoom:90%;
+    }
+
+}
+
+@media screen and (min-width: 436px) and (max-width: 576px){
+    .navigation{
+        position: fixed;
+    
+        width: 100%;
+        
+    }
+    .navigation li h1{
+        font-size:2rem;
+    }
+    .navigation li span{
+        font-size:2rem;
+    }
+    .navigation li a{
+        font-size:2rem;
+    }
+    .navigation ul li{
+      padding: 5px 50px;
+    }
+    #image{
+       display: block;
+       height: 150px;
+       border: 20px solid rgb(136, 153, 212);;
+       top: 25%;
+    }
+    #mobileText{
+        font-size: 1.5rem;
+        margin-left: 200px;
+        height: 684px;
+        
+    }
+    .text{
+        position: relative;
+        top:35%;
+        left: -50%;
+    }
+    .footer{
+        display: block;
+        top: 52%;
+        position: fixed;
+        
+    }
+    .footer ul li{
+padding: 0px 2px 2px;
+    }
+    .footer ul li a{
+        font-size: 2.5rem;
+        
+    }
+    body{
+        zoom:90%;
+    }
+
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 1200px){
+    .navigation{
+        position: fixed;
+    
+     
+        
+    }
+    .navigation li h1{
+        font-size:2rem;
+    }
+    .navigation li span{
+        font-size:2rem;
+    }
+    .navigation li a{
+        font-size:2rem;
+    }
+    .navigation ul li{
+      padding: 5px 50px;
+    }
+    #image{
+       display: block;
+       height: 300px;
+       border: 25px solid rgb(136, 153, 212);;
+       top: 25%;
+    }
+    #mobileText{
+        font-size: 1.5rem;
+    margin-left: 550px;
+        height: 500px;
+        font-size: 1.2rem;
+    }
+    .text{
+        position: relative;
+        top:35%;
+        left: -50%;
+    }
+    .footer{
+        display: block;
+        top: 52%;
+        position: fixed;
+        background-color: white;
+        
+        
+    }
+    .footer ul li{
+padding: 0px 2px 2px;
+    }
+    .footer ul li a{
+        font-size: 2.5rem;
+        color: black;
+        
+    }
+    body{
+        zoom:71%;
+      
+        
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1800px){
+    #image{
+        height: 500px;
+        border: 50px solid  rgb(136, 153, 212);;
+        top: 15%;
+    }
+    .footer{
+top:45%;
+    }
+    body{
+    }
+}
+ /*mediaEnd*/
